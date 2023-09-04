@@ -1,2 +1,19 @@
-# comento
-comtento project
+# IT 대기업 현업 개발자와 함께 하는 백엔드 개발 실무
+
+# comento-backend 프로젝트 
+* Spring, Spring Boot 프레임워크 사용하여 SW활용 현황 통계 API 개발
+
+
+##  ✏️1주차 진행 내용
+1. 개발 환경 셋팅
+   * Java
+     + JDK1.8
+   * Framework
+     + Spring 5.3.20
+     + Spring을 사용하면서 무수한 xml파일 작성, WAS(Tomcat)설정, 라이브러리 의존성 관리 등 번거로움을 느낌 ->  Spring Boot를 선호하는 이유
+   * WAS
+     + Tomcat 9.0.80
+   * IDE
+     + Eclipse(2019-6)
+   * DB
+     + mysql, mysql workbench 8.0.34
