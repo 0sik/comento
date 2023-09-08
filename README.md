@@ -4,8 +4,8 @@
 * Spring, Spring Boot 프레임워크 사용하여 SW활용 현황 통계 API 개발
 
 
-##  1주차 진행 내용
-1. 개발 환경 셋팅
+##  1주차 진행 내용 (폴더 settingweb)
+1. 개발 환경 셋팅 
    * Java
      + JDK1.8
    * Framework
@@ -17,3 +17,12 @@
      + Eclipse(2019-6)
    * DB
      + mysql, mysql workbench 8.0.34
+
+    
+## 2주차 진행 내용 (폴더 settingapi)
+1. 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기
+    * REST, REST API, RESTful개념 알기
+
+    * JSON포맷으로 데이터 응답 알기
+
+    
