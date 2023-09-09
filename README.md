@@ -3,6 +3,7 @@
 # comento-backend 프로젝트 
 * Spring, Spring Boot 프레임워크 사용하여 SW활용 현황 통계 API 개발
 
+***
 
 ##  1주차 진행 내용 (폴더 settingweb)
 1. 개발 환경 셋팅 
@@ -18,6 +19,7 @@
    * DB
      + mysql, mysql workbench 8.0.34
 
+***
     
 ## 2주차 진행 내용 (폴더 settingapi)
 1. 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기
