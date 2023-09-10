@@ -1,11 +1,11 @@
 # IT 대기업 현업 개발자와 함께 하는 백엔드 개발 실무
 
-# comento-backend 프로젝트 
+## comento-backend 프로젝트 
 * Spring, Spring Boot 프레임워크 사용하여 SW활용 현황 통계 API 개발
 
 ***
 
-##  1주차 진행 내용 (폴더 settingweb)
+# 1주차 진행 내용 (폴더 settingweb)
 1. 개발 환경 셋팅 
    * Java
      + JDK1.8
@@ -21,7 +21,7 @@
 
 ***
     
-## 2주차 진행 내용 (폴더 settingapi)
+# 2주차 진행 내용 (폴더 settingapi)
 1. 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기
     * REST, REST API, RESTful개념 알기
 
