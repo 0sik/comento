@@ -2,7 +2,7 @@
 
 ## 버전
 - 1.0 2023/09/08 최초작성 박영식
-
+- 2.0 2023/09/15 sw활용 현황 추가 박영식
 ## 지원서 보관함 데이터
 year  int default=2023 
 count int default=0
@@ -59,3 +59,19 @@ Content-Type: application/json
 //생성 년도가 없는 경우
 []
 ```
+
+# sw 활용현황 API
+월 별 접속자 수
+요청 URL:   ~/{login}/{month}
+
+Request Parameters
+login : string 
+month : string
+
+Response Body
+{
+“totCnt” : 
+“month” :
+“requestLog”:
+“is_success” :
+}
