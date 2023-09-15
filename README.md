@@ -33,12 +33,26 @@
 
 1. 본 과정에서는 RestController를 사용한 간단한 API ( 20년도의 로그인 수) 를 구현
 
-년도별
+
 ```json
- <select id="selectYearLogin" parameterType="string" resultType="hashMap">
-        select count(*) as totCnt
-        from statistc.requestinfo ri
-        where left(ri.createDate, 2) = #{year};
-    </select>
+<!-- 1) 월별 접속자 수 -->
+<select id="selectMonthlyLogins" parameterType="null" resultType="hashMap">
+    SELECT
+        SUBSTRING(ri.createDate, 1, 6) AS month,
+        COUNT(*) AS monthlyLogins
+    FROM statistc.requestInfo ri
+    GROUP BY month
+    ORDER BY month;
+</select>
+
+<!-- 2) 일자별 접속자 수 -->
+<select id="selectDailyLogins" parameterType="null" resultType="hashMap">
+    SELECT
+        createDate AS date,
+        COUNT(*) AS dailyLogins
+    FROM statistc.requestInfo ri
+    GROUP BY date
+    ORDER BY date;
+</select>
 
 ```
