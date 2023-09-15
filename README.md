@@ -27,4 +27,8 @@
 
     * JSON포맷으로 데이터 응답 알기
 
+***
     
+# 3주차 진행 내용 (폴더 settingweb_boot)
+
+1. 본 과정에서는 RestController를 사용한 간단한 API ( 20년도의 로그인 수) 를 구현
