@@ -34,7 +34,7 @@
 1. 본 과정에서는 RestController를 사용한 간단한 API ( 20년도의 로그인 수) 를 구현
 
 
-```json
+```
 <!-- 1) 월별 접속자 수 -->
 <select id="selectMonthlyLogins" parameterType="null" resultType="hashMap">
     SELECT
