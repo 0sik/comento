@@ -33,26 +33,16 @@
 
 1. 본 과정에서는 RestController를 사용한 간단한 API ( 20년도의 로그인 수) 를 구현
 
+***
+    
+# 4주차 진행 내용
 
-```
-<!-- 1) 월별 접속자 수 -->
-<select id="selectMonthlyLogins" parameterType="null" resultType="hashMap">
-    SELECT
-        SUBSTRING(ri.createDate, 1, 6) AS month,
-        COUNT(*) AS monthlyLogins
-    FROM statistc.requestInfo ri
-    GROUP BY month
-    ORDER BY month;
-</select>
+예전에 공부한 내용이라 내가 쓴 예전 블로그의 링크를 걸어 두었다. 
+Spring Boot VS Spring
+Spring 개발에 대한 소개
+- https://0sik.github.io/backendstudy/backendstudy-Spring-MVC-(-Bean-%EA%B0%9D%EC%B2%B4%EC%99%80-%EC%8B%B1%EA%B8%80%ED%86%A4-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-)/
+http - https://0sik.github.io/backendstudy/backendstudy-web%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%84%EB%B0%98%EC%A0%81%EC%9D%B8-%EC%9D%B4%ED%95%B4/
 
-<!-- 2) 일자별 접속자 수 -->
-<select id="selectDailyLogins" parameterType="null" resultType="hashMap">
-    SELECT
-        createDate AS date,
-        COUNT(*) AS dailyLogins
-    FROM statistc.requestInfo ri
-    GROUP BY date
-    ORDER BY date;
-</select>
 
-```
+api와 컨트롤러를 활용하여 sql 다루기
+- 
