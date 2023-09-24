@@ -10,5 +10,15 @@
         from statistc.requestinfo ri
         where left(ri.createDate, 2) = #{year};
     </select>
+     <select id="selectMonthLogin" parameterType="string" resultType="hashMap">
+	    SELECT COUNT(*) AS totCnt
+	    FROM statistc.requestinfo ri
+	    WHERE SUBSTRING(ri.createDate, 3, 2) = #{month};
+    </select>
     
+    <select id="selectDayLogin" parameterType="string" resultType="hashMap">
+	    SELECT COUNT(*) AS totCnt
+	    FROM statistc.requestinfo ri
+	    WHERE SUBSTRING(ri.createDate, 5, 2) = #{day};
+    </select>
 </mapper>

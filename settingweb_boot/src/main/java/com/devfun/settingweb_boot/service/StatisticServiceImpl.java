@@ -32,5 +32,24 @@ public class StatisticServiceImpl implements StatisticService {
         
         return retVal;
     }
+
+	@Override
+	public HashMap<String, Object> monthloginNum(String month) {
+        // TODO Auto-generated method stub
+        HashMap<String, Object> retVal = new HashMap<String,Object>();
+        
+        try {
+            retVal = uMapper.selectMonthLogin(month);
+            retVal.put("month", month);
+            retVal.put("is_success", true);
+            
+        }catch(Exception e) {
+            retVal.put("totCnt", -999);
+            retVal.put("month", month);
+            retVal.put("is_success", false);
+        }
+        
+        return retVal;
+	}
  
 }
