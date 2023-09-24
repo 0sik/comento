@@ -1,14 +1,11 @@
 
 ```
 <!-- 1) 월별 접속자 수 -->
-<select id="selectMonthlyLogins" parameterType="null" resultType="hashMap">
-    SELECT
-        SUBSTRING(ri.createDate, 1, 6) AS month,
-        COUNT(*) AS monthlyLogins
-    FROM statistc.requestInfo ri
-    GROUP BY month
-    ORDER BY month;
-</select>
+     <select id="selectMonthLogin" parameterType="string" resultType="hashMap">
+	    SELECT COUNT(*) AS totCnt
+	    FROM statistc.requestinfo ri
+	    WHERE SUBSTRING(ri.createDate, 3, 2) = #{month};
+    </select>
 
 <!-- 2) 일자별 접속자 수 -->
 <select id="selectDailyLogins" parameterType="null" resultType="hashMap">
