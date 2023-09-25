@@ -46,13 +46,33 @@
 ***
     
 # 4주차 진행 내용
-Spring Boot VS Spring
+1. Spring Boot VS Spring
 
-Spring 개발에 대한 소개
-- https://0sik.github.io/backendstudy/backendstudy-Spring-MVC-(-Bean-%EA%B0%9D%EC%B2%B4%EC%99%80-%EC%8B%B1%EA%B8%80%ED%86%A4-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-)/
+  * Spring 개발에 대한 소개
+    -   필터 인터셉터 aop 또한 알아야 된다. 
+  * https
   
-http
--  https://0sik.github.io/backendstudy/backendstudy-web%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%84%EB%B0%98%EC%A0%81%EC%9D%B8-%EC%9D%B4%ED%95%B4/
 
 
+***
 
+# 5주차 진행 내용
+1. Spring 개발 환경 설정
+  * DI(@Inject,@Autowired),IOC,DAO,VO,DTO(Response) ,,, Entity
+  DI란 의존성 주입이다.  순수 자바로 이용하는 new키워드를 사용하지 않고 Inject, Autowired나 롬복의 @RequiredArgsConstructor 를 이용하여 생성자를 주입 하여 개발에 바로 사용.
+  IOC컨테이너 안에 올라와 있는 객체를 DI의 개념으로 바로 쓸수있어 spring의 생산성이 올라간다.
+  DAO는 데이터에 접근하기 위한 오브젝트인데 마이바티스를 붙여 쿼리를 실행할수있는 영역
+  VO란 클래스인데 데이터를 담는 역할을 하는 클래스
+  DTO 클래스인데 response나 request의 데이터를 주고받는 영역의 클래스이다. 
+  JPA를 사용하게 된다면 그 안의 데이터베이스를 객체 단위로 사용하게 하는 orm을 사용하게 된다면 entity도 알아야한다.
+
+2. BackEnd기본(@RestController(@responseBody, @Controller 를 활용한 데이터 처리))
+  * try - catch말고도 ControllerAdvice를 통한 유효성 검사를 진행할수 있다. 
+
+3. 크로스 브라우징, 크로스 도메인 
+  * 크로스 부라우징 이슈 란 : 각각의 브라우저마다 다른 것을 요구할때가 있다 이 브라우저가 사파리인지 엣지인지 크롬인지 이벤트를 받을때 if else나 라이브러리나 직적 구현시에는 기능 탐지를 이용한다. 
+  * 크로스 도메인 이란 : 도메인이 다른 곳에서 요청이 들어왔을때 어떻게 하지? 이 문제는 cors문제다. 백엔드 개발자 들이 이것을 열어 줄 수가 있다 . config 파일 안에 어떤 도메인의 요청을 허용한다고 설정할수있다. 또는 server to server통신으로 해결할수 있다. (httpclient,restTemplate)
+
+4. sql
+  * map 리턴 : vo , dto 를 사용하지 않고 map으로 리턴하는 방법 (가독성 떨어짐, 생산속도 높음)
+  
