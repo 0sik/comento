@@ -32,7 +32,7 @@
 # 3주차 진행 내용 (폴더 settingweb_boot)
 
 1. 본 과정에서는 RestController를 사용한 간단한 API ( 20년도의 로그인 수) 를 구현
-2. sql 작성하기
+2. [sql 작성하기](https://github.com/0sik/comento/tree/week5/settingweb_boot)
 ```
 <!-- 0) 년도 접속자 수 -->
 <!-- 1) 월별 접속자 수 -->
