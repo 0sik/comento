@@ -32,7 +32,7 @@
 # 3주차 진행 내용 (폴더 settingweb_boot)
 
 1. 본 과정에서는 RestController를 사용한 간단한 API ( 20년도의 로그인 수) 를 구현
-2. sql 작성하기
+2. [sql 작성하기](https://github.com/0sik/comento/tree/week5/settingweb_boot)
 ```
 <!-- 0) 년도 접속자 수 -->
 <!-- 1) 월별 접속자 수 -->
@@ -46,25 +46,23 @@
 ***
     
 # 4주차 진행 내용
-1. Spring Boot VS Spring
+내용 정리하기 
 
-  * Spring 개발에 대한 소개
-    -   필터 인터셉터 aop 또한 알아야 된다. 
-  * https
-  
+- [RESTful,HTTPS, TCP, UDP](https://0sik.github.io/)
 
+- [Filter, Interceptor, AOP](https://0sik.github.io/)
 
 ***
 
 # 5주차 진행 내용
 1. Spring 개발 환경 설정
   * DI(@Inject,@Autowired),IOC,DAO,VO,DTO(Response) ,,, Entity
-  DI란 의존성 주입이다.  순수 자바로 이용하는 new키워드를 사용하지 않고 Inject, Autowired나 롬복의 @RequiredArgsConstructor 를 이용하여 생성자를 주입 하여 개발에 바로 사용.
-  IOC컨테이너 안에 올라와 있는 객체를 DI의 개념으로 바로 쓸수있어 spring의 생산성이 올라간다.
-  DAO는 데이터에 접근하기 위한 오브젝트인데 마이바티스를 붙여 쿼리를 실행할수있는 영역
-  VO란 클래스인데 데이터를 담는 역할을 하는 클래스
-  DTO 클래스인데 response나 request의 데이터를 주고받는 영역의 클래스이다. 
-  JPA를 사용하게 된다면 그 안의 데이터베이스를 객체 단위로 사용하게 하는 orm을 사용하게 된다면 entity도 알아야한다.
+    - DI란 의존성 주입이다.  순수 자바로 이용하는 new키워드를 사용하지 않고 Inject, Autowired나 롬복의 @RequiredArgsConstructor 를 이용하여 생성자를 주입 하여 개발에 바로 사용.
+    - IOC컨테이너 안에 올라와 있는 객체를 DI의 개념으로 바로 쓸수있어 spring의 생산성이 올라간다.
+    - DAO는 데이터에 접근하기 위한 오브젝트인데 마이바티스를 붙여 쿼리를 실행할수있는 영역
+    - VO란 클래스인데 데이터를 담는 역할을 하는 클래스
+    - DTO 클래스인데 response나 request의 데이터를 주고받는 영역의 클래스이다. 
+    - JPA를 사용하게 된다면 그 안의 데이터베이스를 객체 단위로 사용하게 하는 orm을 사용하게 된다면 entity도 알아야한다.
 
 2. BackEnd기본(@RestController(@responseBody, @Controller 를 활용한 데이터 처리))
   * try - catch말고도 ControllerAdvice를 통한 유효성 검사를 진행할수 있다. 
