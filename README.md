@@ -48,7 +48,7 @@
 # 4주차 진행 내용
 내용 정리하기 
 
-- [RESTful,HTTPS, TCP, UDP](https://0sik.github.io/)
+- [RESTful,HTTPS, TCP, UDP](https://0sik.github.io/backendstudy/backendstudy-Restful,Https,Tcp,Udp/)
 
 - [Filter, Interceptor, AOP](https://0sik.github.io/)
 
