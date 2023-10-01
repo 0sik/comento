@@ -1,6 +1,7 @@
 # IT 대기업 현업 개발자와 함께 하는 백엔드 개발 실무
 
 ## comento-backend 프로젝트 
+
 * Spring, Spring Boot 프레임워크 사용하여 SW활용 현황 통계 API 개발
 
 ***
