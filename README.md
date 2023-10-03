@@ -6,7 +6,7 @@
 
 ***
 
-# 1주차 진행 내용 (폴더 settingweb)
+# [1주차 진행 내용](https://github.com/0sik/comento/tree/main/settingweb)
 1. 개발 환경 셋팅 
    * Java
      + JDK1.8
@@ -22,15 +22,15 @@
 
 ***
     
-# 2주차 진행 내용 (폴더 settingapi)
+# [2주차 진행 내용](https://github.com/0sik/comento/tree/main/settingapi)
 1. 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기
-    * REST, REST API, RESTful개념 알기
+    * [REST, REST API, RESTful개념 알기](https://0sik.github.io/network/network-restapi%EB%9E%80/)
 
     * JSON포맷으로 데이터 응답 알기
 
 ***
     
-# 3주차 진행 내용 (폴더 settingweb_boot)
+# [3주차 진행 내용](https://github.com/0sik/comento/tree/main/settingweb_boot)
 
 1. 본 과정에서는 RestController를 사용한 간단한 API ( 20년도의 로그인 수) 를 구현
 2. [sql 작성하기](https://github.com/0sik/comento/tree/week5/settingweb_boot)
@@ -45,7 +45,6 @@
 - [RESTful,HTTPS, TCP, UDP](https://0sik.github.io/backendstudy/backendstudy-Restful,Https,Tcp,Udp/)
 
 - [Filter, Interceptor, AOP](https://0sik.github.io/backendstudy/backendstudy-Filter,-Interceptor,-AOP/)
-
 
 ***
 
